@@ -1,0 +1,25 @@
+{
+  "api_version": "1.0",
+  "name": "gold_rv_v5_full",
+  "bar_interval": "1m",
+  "data_types": [
+    "ohlcv_1m",
+    "funding_rates"
+  ],
+  "order_book_depth": 20,
+  "instruments": [
+    "gateio:perp:PAXG_USDT",
+    "gateio:perp:XAUT_USDT"
+  ],
+  "warmup_bars": 60,
+  "parameters": {
+    "decision_every": 1440,
+    "z_entry": 3.0,
+    "z_exit": 0.5,
+    "lookback_bars": 2880
+  },
+  "local_test": {
+    "initial_equity": 10000.0,
+    "fee_rate": 0.0005
+  }
+}
