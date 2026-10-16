@@ -1,0 +1,10 @@
+.env
+.env.*
+*.token
+data/
+**/__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.parquet
+results/**/equity.csv
+results/**/positions.csv
